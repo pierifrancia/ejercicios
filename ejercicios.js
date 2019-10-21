@@ -29,6 +29,7 @@ console.log (mensajeGanancias);
 console.log (ganancias == objetivoGanancias)
 
 
+
 let numero1 = 10
 
 let numero2 = 20
@@ -37,11 +38,37 @@ let mensajeMismoValor = "La variable numero1 y numero2 tienen el mismo valor:"
 
 let mensajeDiferenteValor = "La variables numero1 y numero2 son distintas"
 
-console.log (mensajeMismoValor);
+console.log (mensajeMismoValor); 
 console.log (numero1 == numero2);
 
 console.log (mensajeDiferenteValor);
 console.log (numero1!=numero2);
+
+
+
+
+let promedioParaAprobar = 6;
+
+let promedioDelAlumno = 4;
+
+let falta = promedioParaAprobar - promedioDelAlumno;
+
+let mensajePromedio = "El alumno tiene un promedio mayor o igual que el requerido:";
+
+let mensajeFalta = "Al alumno le faltaron ${puntos} para aprobar";
+
+
+console.log (mensajePromedio);
+
+console.log (promedioDelAlumno >= promedioParaAprobar);
+
+console.log (mensajeFalta); 
+
+console.log (falta);
+
+
+
+
 
 
 
