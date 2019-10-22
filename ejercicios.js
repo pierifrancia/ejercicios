@@ -10,62 +10,39 @@ let objetivoGanancias = 600;
 
 let objetivoImpuestos = 600;
 
-let mensajeIngresos = "Objetivo de ingresos";
+console.log ("Ejercicio 34");
 
-let mensajeImpuestos = "Objetivo de impuestos";
+console.log ("Objetivo de ingresos = " + (ingresos >= objetivoIngresos));
 
-let mensajeGanancias = "Objetivo de ganancias";
+console.log ("Objetivo de impuestos = " + (impuestos <= objetivoImpuestos));
 
-console.log (mensajeIngresos);
-
-console.log (ingresos >= objetivoIngresos);
-
-console.log (mensajeImpuestos);
-
-console.log (impuestos <= objetivoImpuestos)
-
-console.log (mensajeGanancias);
-
-console.log (ganancias == objetivoGanancias)
+console.log ("Bono de ganancias = " + (ganancias == objetivoGanancias));
 
 
+
+console.log ("Ejercicio 36");
 
 let numero1 = 10
 
 let numero2 = 20
 
-let mensajeMismoValor = "La variable numero1 y numero2 tienen el mismo valor:"
+console.log ("La variable numero1 y numero2 tienen el mismo valor: " + (numero1 == numero2));
 
-let mensajeDiferenteValor = "La variables numero1 y numero2 son distintas"
-
-console.log (mensajeMismoValor); 
-console.log (numero1 == numero2);
-
-console.log (mensajeDiferenteValor);
-console.log (numero1!=numero2);
+console.log ("La variables numero1 y numero2 son distintas: " + (numero1!=numero2));
 
 
+console.log ("Ejercicio 37");
 
 
 let promedioParaAprobar = 6;
 
 let promedioDelAlumno = 4;
 
-let falta = promedioParaAprobar - promedioDelAlumno;
+let puntos = promedioParaAprobar - promedioDelAlumno;
 
-let mensajePromedio = "El alumno tiene un promedio mayor o igual que el requerido:";
+console.log ("El alumno tiene un promedio mayor o igual que el requerido: " + (promedioDelAlumno >= promedioParaAprobar));
 
-let mensajeFalta = "Al alumno le faltaron ${puntos} para aprobar";
-
-
-console.log (mensajePromedio);
-
-console.log (promedioDelAlumno >= promedioParaAprobar);
-
-console.log (mensajeFalta); 
-
-console.log (falta);
-
+console.log (`Al alumno le faltaron ${puntos} para aprobar`);
 
 
 
